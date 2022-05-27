@@ -1,5 +1,9 @@
 [![Build Status](https://dev.azure.com/ms/Microsoft-UI-UIAutomation/_apis/build/status/Microsoft-UI-UIAutomation%20Desktop%20CI?branchName=main)](https://dev.azure.com/ms/Microsoft-UI-UIAutomation/_build/latest?definitionId=378&branchName=main)
 
+# This is a fork of the official repository
+
+At this time, this fork contains my changes to move the C++ projects to the v143 toolchain, the newer C++/WinRT tools and configurations, and does some clean up of the vcxproj files.
+
 # Windows UIAutomation platform utility libraries
 
 This repository contains utility libraries that simplify consuming [Windows UIAutomation](https://docs.microsoft.com/en-us/windows/win32/winauto/entry-uiauto-win32)
