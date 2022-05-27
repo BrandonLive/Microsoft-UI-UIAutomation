@@ -103,14 +103,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Midl Include="Microsoft.UI.UIAutomation.idl">
-      <Filter>Source Files</Filter>
-    </Midl>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="module.def">
       <Filter>Source Files</Filter>
     </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="Microsoft.UI.UIAutomation.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
   </ItemGroup>
 </Project>
