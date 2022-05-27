@@ -3,7 +3,11 @@
 
 #include "pch.h"
 #include "AutomationRemoteOperation.h"
-#include "AutomationRemoteOperation.g.cpp"
+
+#if __has_include("Microsoft.UI.UIAutomation.AutomationRemoteOperation.g.cpp")
+#include "Microsoft.UI.UIAutomation.AutomationRemoteOperation.g.cpp"
+#endif
+
 #include "Standins.h"
 
 #include <wil/resource.h>

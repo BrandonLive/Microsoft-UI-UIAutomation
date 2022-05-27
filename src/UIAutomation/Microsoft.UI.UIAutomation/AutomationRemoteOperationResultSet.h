@@ -2,7 +2,7 @@
 // Licensed under the MIT License.
 
 #pragma once
-#include "AutomationRemoteOperationResultSet.g.h"
+#include "Microsoft.UI.UIAutomation.AutomationRemoteOperationResultSet.g.h"
 
 #include <winrt/Windows.Foundation.h>
 #include <winrt/Windows.Foundation.Collections.h>

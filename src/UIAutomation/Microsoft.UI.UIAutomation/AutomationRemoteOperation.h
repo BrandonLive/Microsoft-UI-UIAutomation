@@ -2,7 +2,7 @@
 // Licensed under the MIT License.
 
 #pragma once
-#include "AutomationRemoteOperation.g.h"
+#include "Microsoft.UI.UIAutomation.AutomationRemoteOperation.g.h"
 #include "AutomationRemoteOperationResultSet.h"
 
 #include <winrt/Windows.UI.UIAutomation.h>

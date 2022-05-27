@@ -1,10 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-import "Windows.Foundation.idl";
-import "Windows.UI.UIAutomation.core.idl";
-import "Windows.UI.UIAutomation.idl";
-
 namespace Microsoft.UI.UIAutomation
 {
     unsealed runtimeclass AutomationRemoteObject;
